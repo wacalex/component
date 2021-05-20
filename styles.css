@@ -29,18 +29,9 @@ img.men {
     padding: 0 0 0 10px;
 }
 
-img.profile button {
-position: absolute;
-}
-
 #menu {
     display: flex;
     flex-direction:column;
-    
-}
-
-#menu:hover {
-    display: block;
 }
 
 #header {
