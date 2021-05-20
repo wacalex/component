@@ -4,6 +4,14 @@
     padding:0px;
 }
 
+body {
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
 header {
     margin: 10px;
 }
@@ -71,25 +79,29 @@ ul.submenu {
 }
 
 @media only screen and (min-width: 300px) {
-    header {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 100%;
+        padding: 30%;
     }
   }
 
 @media only screen and (min-width: 480px) {
-    header {
+    body {
         width: 35%;
     }
   }
 
 @media only screen and (min-width: 600px) {
-    header {
+    body {
         width: 25%;
     }
   }
 
 @media only screen and (min-width: 1024px) {
-    header {
+    body {
         width: 18%;
     }
-  }
+}
